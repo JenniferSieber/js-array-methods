@@ -1,4 +1,8 @@
 // JavaScript Array Methods
+// [...new Set([])]
+// Create new array with no duplicates   [...new Set([])]
+const newArr = [...new Set([1,2,1,2,2,1,2,3,3,33])]
+console.log(newArr)
 
 //  .flat()
 console.log('.flat() flattens and array of arrays into all the elements in one array')
