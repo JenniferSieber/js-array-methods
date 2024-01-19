@@ -1,1 +1,1 @@
-# js-array-methods
+# JavaScript Array Methods with examples in console
