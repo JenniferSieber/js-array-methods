@@ -18,6 +18,13 @@ const arrConcat3 = [20,21,22]
 const concatenatedArr = arrConcat1.concat(arrConcat2.concat(arrConcat3))
 console.log(arrConcat1, arrConcat2, arrConcat3, 'Concatenated three arrays', concatenatedArr)
 
+// convert string to an array example .split() method with one or more char splits
+const s = 'the-stealth-warrior'
+const sArray = s.split('-') // ['the','stealth','warrior']
+// split on the - or _
+const s2 = 'The_Stealth-String'
+const s2Array = s2.split(/[_-]/) // regex for multiple split characters  ['The', 'Stealth', 'String']
+
 // .join()
 console.log('.join(): joins all elements of an array into a string with division between elements defined in join()')
 const arrJoin =['Hello', 'JavaScript', 'Array', 'Methods']
